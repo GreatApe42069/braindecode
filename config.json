@@ -1,0 +1,16 @@
+{
+  "brainInput": {
+    "provider": "local-zuna",
+    "modelPath": "\"/home/greatape42069/.cache/huggingface/hub/models--Zyphra--ZUNA\"",
+    "eegDirs": {
+      "input": "/home/greatape42069/.openclaw/eeg-input",
+      "processed": "/home/greatape42069/.openclaw/eeg-processed",
+      "output": "/home/greatape42069/.openclaw/eeg-output"
+    }
+  },
+  "plugins": {
+    "bci-core": {
+      "enabled": true
+    }
+  }
+}
